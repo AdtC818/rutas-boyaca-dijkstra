@@ -10,8 +10,8 @@ public class Presenter {
     public Presenter() {
         graph = new MyGraphs();
         view = new MainView(this);
-        view.setVisible(true);
         view.showMap();
+        view.setVisible(true);
     }
 
     public MyGraphs getGraph() {
